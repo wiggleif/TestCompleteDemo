@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="CommonFlows">
+			<child name="Launch_Browser" key="{60A09390-6E36-4287-AA3A-D481210679BD}" path="Launch_Browser.tcKDTest" />
+			<child name="OK_toWeakPasswordPopup" key="{BC8426AF-6D19-4928-A389-C90549FA73FF}" path="OK_toWeakPasswordPopup.tcKDTest" />
+			<child name="Login" key="{15588AD1-029E-4960-A539-4939AF03D135}" path="Login.tcKDTest" />
+			<child name="Logout" key="{9B54E908-DEAF-473D-85B3-DFCD6EFF5BFE}" path="Logout.tcKDTest" />
+		</folder>
+		<folder name="Navigation">
+			<child name="OrderItems" key="{EBA988FC-650C-453D-85FA-A1EA2798A594}" path="OrderItems.tcKDTest" />
+			<child name="ViewAllProducts" key="{B9D36D3F-8B56-4408-8063-715D4555325D}" path="ViewAllProducts.tcKDTest" />
+			<child name="ViewAllOrders" key="{D6D083B8-B264-483E-AEDD-AF990EC93A4B}" path="ViewAllOrders.tcKDTest" />
+		</folder>
+		<folder name="Products">
+			<child name="SelectFamilyAlbum" key="{99B97CC5-FD46-46F4-9FEB-5BD0EAC476E8}" path="SelectFamilyAlbum.tcKDTest" />
+			<child name="SelectMyMoney" key="{45356B01-913C-48FE-82D8-117A787241EC}" path="SelectMyMoney.tcKDTest" />
+			<child name="SelectScreenSaver" key="{893EB75C-8FA7-4F0C-AB60-36D0B45DDF52}" path="SelectScreenSaver.tcKDTest" />
+		</folder>
+		<folder name="ProductVariables">
+			<child name="SelectQuantity" key="{86A5F5A1-6301-4020-899C-1BDF0E3E6864}" path="SelectQuantity.tcKDTest" />
+			<child name="ChangeUnitPrice" key="{4D1C64AC-9848-4834-8E1F-089F71604411}" path="ChangeUnitPrice.tcKDTest" />
+			<child name="ChangeDiscount" key="{1574FBC6-B80C-49ED-A20A-E992CB58488C}" path="ChangeDiscount.tcKDTest" />
+		</folder>
+		<folder name="ShippingInfo">
+			<child name="AddressInfo" key="{D3657068-8B20-4271-9B39-ADFB56261AE6}" path="AddressInfo.tcKDTest" />
+			<child name="BillingInfo" key="{AF017838-FF23-4B09-8B4B-2E1A3A89AFCB}" path="BillingInfo.tcKDTest" />
+		</folder>
+		<folder name="Buttons">
+			<child name="CalculateTotalPrice" key="{47D80181-0FA4-4FC7-9709-24DF91A05461}" path="CalculateTotalPrice.tcKDTest" />
+			<child name="ProcessOrder" key="{85AA2A5F-9567-4084-A552-9DC8B013BD92}" path="ProcessOrder.tcKDTest" />
+			<child name="ResetOrder" key="{2C9D46DF-4397-4A64-AD2E-2EC18C801F27}" path="ResetOrder.tcKDTest" />
+		</folder>
+		<folder name="Validations">
+			<child name="VerifyNewOrderText" key="{2B34BFC6-873E-43A4-879F-B3F0AE4D53E3}" path="VerifyNewOrderText.tcKDTest" />
+		</folder>
+		<child name="Test1" key="{6B83062A-AFC3-4DBC-B977-922B92486825}" path="Test1.tcKDTest" />
+	</children>
+</Root>

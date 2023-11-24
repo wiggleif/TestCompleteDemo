@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{AF017838-FF23-4B09-8B4B-2E1A3A89AFCB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45250.522974537" objectName="Aliases.browser.pageProcess.formAspnetform.radiobuttonVisa" objectLeft="610" objectTop="636" objectRight="623" objectBottom="649" clickPointX="620" clickPointY="642" imageFileName="tcvi435476718253760.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45250.5230092593" objectName="Aliases.browser.pageProcess.formAspnetform.textboxCardNr" objectLeft="602" objectTop="658" objectRight="808" objectBottom="679" clickPointX="1919" clickPointY="404" imageFileName="tcvi435479859253762.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45250.523125" objectName="Aliases.browser.pageProcess.formAspnetform.textboxExpireDateMmYy" objectLeft="602" objectTop="683" objectRight="648" objectBottom="704" clickPointX="1919" clickPointY="404" imageFileName="tcvi435488093253764.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
