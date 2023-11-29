@@ -8,80 +8,51 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{6F4AA0BB-B141-4FE8-9A58-049881EA3986}" version="14">
 		<children>
-			<testItem name="Launch_Browser" key="{9C01C321-AF16-4975-A15E-31C1C3423A0B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60A09390-6E36-4287-AA3A-D481210679BD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Setup" key="{A6FAF740-178D-40A7-B769-4CF484D52A32}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="LocalHeadlessBrowser" />
-				<children />
+				<children>
+					<testItem name="Launch_Browser" key="{9C01C321-AF16-4975-A15E-31C1C3423A0B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60A09390-6E36-4287-AA3A-D481210679BD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="LocalHeadlessBrowser" />
+						<children />
+					</testItem>
+					<testItem name="Login" key="{E10175F0-96EA-4DEF-8201-09BE0E1DDFB9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15588AD1-029E-4960-A539-4939AF03D135}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="OK_toWeakPasswordPopup" key="{02334339-6EAE-4FC3-BCC1-0066E47A9F3C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BC8426AF-6D19-4928-A389-C90549FA73FF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
-			<testItem name="Login" key="{E10175F0-96EA-4DEF-8201-09BE0E1DDFB9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15588AD1-029E-4960-A539-4939AF03D135}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Tests" key="{C2297220-51BB-4D2A-8A14-8ED1B2930130}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
+				<children>
+					<testItem name="CreateAnOrder" key="{F37389A1-144D-49AF-A8B4-47907E00EFC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F800994B-1D8E-4517-8644-21AC9EFBD620}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="DeleteOrder" key="{E9205EAD-83DB-46FB-AB48-3FAFCE45038F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{36071D43-E880-4B99-BA87-5FCB355049D8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
 			</testItem>
-			<testItem name="OK_toWeakPasswordPopup" key="{02334339-6EAE-4FC3-BCC1-0066E47A9F3C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BC8426AF-6D19-4928-A389-C90549FA73FF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Finalize" key="{6A0995B2-EDFD-43A3-B6B0-A8AE462D2088}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="OrderItems" key="{9C1C97A0-BAFB-4E8A-A947-66C993E9A0D0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EBA988FC-650C-453D-85FA-A1EA2798A594}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="SelectFamilyAlbum" key="{0CC392C0-C4EB-4A42-84FF-D92F9D550932}" group="False" parallel="False" enabled="True" testMoniker="KDT\{99B97CC5-FD46-46F4-9FEB-5BD0EAC476E8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="SelectQuantity" key="{DC95F30E-3162-4FE3-9AE3-4C25A324D426}" group="False" parallel="False" enabled="True" testMoniker="KDT\{86A5F5A1-6301-4020-899C-1BDF0E3E6864}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="SetDiscount" key="{7D276DAC-4F1C-495C-B2D2-F50EB441A0C3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1574FBC6-B80C-49ED-A20A-E992CB58488C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="SetUnitPrice" key="{F5BDDBCE-DF60-42B2-BC57-23BE065DCA23}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4D1C64AC-9848-4834-8E1F-089F71604411}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="CalculateTotalPrice" key="{785805FE-524A-4BFF-99ED-146FBBDCDD1E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{47D80181-0FA4-4FC7-9709-24DF91A05461}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="LocalHeadlessBrowser" />
-				<children />
-			</testItem>
-			<testItem name="AddressInfo" key="{F5025ABD-8092-4BDB-886B-71914BCB2617}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D3657068-8B20-4271-9B39-ADFB56261AE6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="BillingInfo" key="{D9EA6625-68EE-4209-A661-61D1E7C40966}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AF017838-FF23-4B09-8B4B-2E1A3A89AFCB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProcessOrder" key="{82DD5495-976B-40F1-8773-6C036CE8553E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{85AA2A5F-9567-4084-A552-9DC8B013BD92}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="VerifyNewOrderText" key="{F5B17F64-80BB-4506-A94B-4C91D57A6F54}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2B34BFC6-873E-43A4-879F-B3F0AE4D53E3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ViewAllOrders" key="{B4A3A3FE-6C90-4892-A92B-37056F6E8FD3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D6D083B8-B264-483E-AEDD-AF990EC93A4B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Logout" key="{9DA16F44-231E-4353-8C01-7927CA98961B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9B54E908-DEAF-473D-85B3-DFCD6EFF5BFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
+				<children>
+					<testItem name="Logout" key="{78A3E798-E03E-4B60-9AA9-71907F78B262}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9B54E908-DEAF-473D-85B3-DFCD6EFF5BFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>

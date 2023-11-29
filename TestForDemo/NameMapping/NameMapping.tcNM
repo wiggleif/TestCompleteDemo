@@ -275,6 +275,93 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="imagebuttonEdit" Key="{47C79318-B3A1-4C3B-9A60-ED6F34E0E385}">
+										<Image FileName="-714259981" Left="1872" Top="325" Right="1892" Bottom="342" />
+										<TypeInfo Item0="{6AAA7F8A-10DB-4000-92AF-BF5BD4B48675}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td/input[@type=&apos;image&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ctl00_MainContent_orderGrid&apos;]//tr[2]/td[13]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[13]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCtl00MaincontentFmworderUpda" Key="{7E7F575B-4F07-422F-AFDB-672FF7BDE30E}">
+										<Image FileName="263959903" Left="603" Top="725" Right="736" Bottom="757" />
+										<TypeInfo Item0="{6AAA7F8A-10DB-4000-92AF-BF5BD4B48675}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_MainContent_fmwOrder_UpdateButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Update&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn_light&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ctl00_MainContent_fmwOrder&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeListOfAllOrders" Key="{D1692DD1-A2CB-4059-B67E-84B78EBA6CD6}">
+										<Image FileName="1589157000" Left="460" Top="202" Right="1918" Bottom="231" />
+										<TypeInfo Item0="{410E6D1E-12F7-4F1F-996A-6F62322567C3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(text(), &apos;List of All Orders&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectDdlproduct" Key="{D730DC2F-5224-4787-B0B4-1C80AAEFD978}">
+										<Image FileName="-1816577287" Left="611" Top="294" Right="713" Bottom="313" />
+										<TypeInfo Item0="{D8658641-9C9A-4B38-9621-5FEE999EAACF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTxtquantity" Key="{CFF5351F-E41C-46E9-AF51-34292CFDDF20}">
+										<Image FileName="-831242111" Left="611" Top="319" Right="657" Bottom="340" />
+										<TypeInfo Item0="{04BE8068-369D-4596-B63B-5B0A01795F99}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTxtname" Key="{B5639CE7-A1C3-4566-94C8-094376C98A53}">
+										<Image FileName="1170099373" Left="611" Top="470" Right="817" Bottom="491" />
+										<TypeInfo Item0="{04BE8068-369D-4596-B63B-5B0A01795F99}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Paul Brown&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li/input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageProcess" Key="{29A5EB38-D0AC-4668-96AE-B650192AC30A}">
@@ -730,6 +817,185 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageWebOrders" Key="{07B0EDBD-B4C6-4890-A7EF-68DE9917D309}">
+								<Image FileName="287115672" Left="8" Top="117" Right="1928" Bottom="1040" />
+								<TypeInfo Item0="{78CF0C04-DE0B-4245-B2FC-CEB7C48CE8B8}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Default.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{EC65155D-98BC-4005-9587-AFBA1E2A7DFD}">
+										<Image FileName="287115672" Left="8" Top="117" Right="1928" Bottom="654" />
+										<TypeInfo Item0="{410E6D1E-12F7-4F1F-996A-6F62322567C3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Web Orders&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;Default.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imagebuttonEdit" Key="{2D91E992-34D0-425A-AA4C-7B87A226CFB2}">
+										<Image FileName="287115672" Left="1878" Top="369" Right="1898" Bottom="386" />
+										<TypeInfo Item0="{376298EA-40F8-4FDE-896A-844B6D36C0A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[3]/td/input[@type=&apos;image&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td[13]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTextbox2" Key="{2F73E149-94E2-4C1E-AE12-3EE5C55CF1DC}">
+										<Image FileName="-154201382" Left="603" Top="487" Right="809" Bottom="508" />
+										<TypeInfo Item0="{A1910582-EA1C-4173-841E-090382338983}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;5, Ringer Street&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTextbox3" Key="{DFB713E7-2929-4BEE-AA3F-4BD5702F5870}">
+										<Image FileName="-330430107" Left="603" Top="512" Right="809" Bottom="533" />
+										<TypeInfo Item0="{A1910582-EA1C-4173-841E-090382338983}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Las Vegas, NV&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li[3]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTextbox4" Key="{7727FEB8-BA41-492E-A82A-0BB065CF0914}">
+										<Image FileName="729728377" Left="603" Top="537" Right="809" Bottom="558" />
+										<TypeInfo Item0="{A1910582-EA1C-4173-841E-090382338983}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;US&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li[4]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTextbox5" Key="{6D4861EA-2A57-49A6-BC8F-E533147481F5}">
+										<Image FileName="-1025990250" Left="603" Top="562" Right="809" Bottom="583" />
+										<TypeInfo Item0="{A1910582-EA1C-4173-841E-090382338983}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;748&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li[5]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[2]/li[5]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAddressInformation" Key="{005171B1-74FD-4872-B2ED-B81C418069D9}">
+										<Image FileName="1177290614" Left="453" Top="431" Right="1909" Bottom="458" />
+										<TypeInfo Item0="{6AAA7F8A-10DB-4000-92AF-BF5BD4B48675}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Address Information&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeStreet" Key="{B901E22C-8A72-47A0-80DA-457EF962F1C9}">
+										<Image FileName="-1735183831" Left="453" Top="483" Right="1909" Bottom="508" />
+										<TypeInfo Item0="{6AAA7F8A-10DB-4000-92AF-BF5BD4B48675}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Street:&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxCtl00MaincontentOrdergri" Key="{F2E6C7C1-1556-4141-BA6A-2858AE40DDDD}">
+										<Image FileName="-1611314138" Left="462" Top="435" Right="475" Bottom="448" />
+										<TypeInfo Item0="{8B0E9C26-2187-49D1-A0C9-112D66815E1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_MainContent_orderGrid_ctl05_OrderSelector" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[5]/td/input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ctl00_MainContent_orderGrid&apos;]//tr[5]/td/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[5]/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxCtl00MaincontentOrdergri2" Key="{317B5240-8AE5-45FD-8B27-F14D625C4E7C}">
+										<Image FileName="-1440428626" Left="462" Top="471" Right="475" Bottom="484" />
+										<TypeInfo Item0="{8B0E9C26-2187-49D1-A0C9-112D66815E1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_MainContent_orderGrid_ctl06_OrderSelector" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td/input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ctl00_MainContent_orderGrid&apos;]//tr[6]/td/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonDeleteSelected" Key="{DE12BF17-77CE-4BA6-BDA4-744C453705A0}">
+										<Image FileName="1759040637" Left="452" Top="614" Right="585" Bottom="646" />
+										<TypeInfo Item0="{66364D6C-9420-4D66-B68B-B68CCDD1997B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_MainContent_btnDelete" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Delete Selected&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{A7E7CA14-03A8-498C-97DD-EE1DDF4482AE}">
@@ -804,6 +1070,12 @@
 					<Child Name="linkCtl00Logout" Owner="{5F168AF6-FA51-4A37-8019-39D54F6BC584}" />
 					<Child Name="cell" Owner="{F5F5D2DA-82AF-4674-BFE7-1A4E952FFF18}" />
 					<Child Name="cell2" Owner="{873CEFD4-3D2E-48D0-AABD-A306618233D8}" />
+					<Child Name="imagebuttonEdit" Owner="{47C79318-B3A1-4C3B-9A60-ED6F34E0E385}" />
+					<Child Name="linkCtl00MaincontentFmworderUpda" Owner="{7E7F575B-4F07-422F-AFDB-672FF7BDE30E}" />
+					<Child Name="textnodeListOfAllOrders" Owner="{D1692DD1-A2CB-4059-B67E-84B78EBA6CD6}" />
+					<Child Name="selectDdlproduct" Owner="{D730DC2F-5224-4787-B0B4-1C80AAEFD978}" />
+					<Child Name="textboxTxtquantity" Owner="{CFF5351F-E41C-46E9-AF51-34292CFDDF20}" />
+					<Child Name="textboxTxtname" Owner="{B5639CE7-A1C3-4566-94C8-094376C98A53}" />
 				</Child>
 				<Child Name="textnodeWebOrders" Owner="{3137C8BC-3EA9-46F4-BEF4-69C0485216B9}" />
 			</Child>
@@ -843,6 +1115,20 @@
 			</Child>
 			<Child Name="wndChrome_WidgetWin_1" Owner="{19E512E2-4F5F-4017-8940-BE83EC5D8D88}">
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{13F91D67-CD01-4EAC-A8FE-10C331B7D9E7}" />
+			</Child>
+			<Child Name="pageWebOrders" Owner="{07B0EDBD-B4C6-4890-A7EF-68DE9917D309}">
+				<Child Name="formAspnetform" Owner="{EC65155D-98BC-4005-9587-AFBA1E2A7DFD}">
+					<Child Name="imagebuttonEdit" Owner="{2D91E992-34D0-425A-AA4C-7B87A226CFB2}" />
+					<Child Name="textboxTextbox2" Owner="{2F73E149-94E2-4C1E-AE12-3EE5C55CF1DC}" />
+					<Child Name="textboxTextbox3" Owner="{DFB713E7-2929-4BEE-AA3F-4BD5702F5870}" />
+					<Child Name="textboxTextbox4" Owner="{7727FEB8-BA41-492E-A82A-0BB065CF0914}" />
+					<Child Name="textboxTextbox5" Owner="{6D4861EA-2A57-49A6-BC8F-E533147481F5}" />
+					<Child Name="textnodeAddressInformation" Owner="{005171B1-74FD-4872-B2ED-B81C418069D9}" />
+					<Child Name="textnodeStreet" Owner="{B901E22C-8A72-47A0-80DA-457EF962F1C9}" />
+					<Child Name="checkboxCtl00MaincontentOrdergri" Owner="{F2E6C7C1-1556-4141-BA6A-2858AE40DDDD}" />
+					<Child Name="checkboxCtl00MaincontentOrdergri2" Owner="{317B5240-8AE5-45FD-8B27-F14D625C4E7C}" />
+					<Child Name="submitbuttonDeleteSelected" Owner="{DE12BF17-77CE-4BA6-BDA4-744C453705A0}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{A7E7CA14-03A8-498C-97DD-EE1DDF4482AE}">

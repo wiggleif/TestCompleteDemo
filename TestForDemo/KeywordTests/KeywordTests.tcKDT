@@ -7,10 +7,11 @@
 			<child name="Login" key="{15588AD1-029E-4960-A539-4939AF03D135}" path="Login.tcKDTest" />
 			<child name="Logout" key="{9B54E908-DEAF-473D-85B3-DFCD6EFF5BFE}" path="Logout.tcKDTest" />
 		</folder>
-		<folder name="Navigation">
-			<child name="OrderItems" key="{EBA988FC-650C-453D-85FA-A1EA2798A594}" path="OrderItems.tcKDTest" />
-			<child name="ViewAllProducts" key="{B9D36D3F-8B56-4408-8063-715D4555325D}" path="ViewAllProducts.tcKDTest" />
-			<child name="ViewAllOrders" key="{D6D083B8-B264-483E-AEDD-AF990EC93A4B}" path="ViewAllOrders.tcKDTest" />
+		<folder name="Pages">
+			<child name="OrderItemsNav" key="{EBA988FC-650C-453D-85FA-A1EA2798A594}" path="OrderItemsNav.tcKDTest" />
+			<child name="ViewAllProductsNav" key="{B9D36D3F-8B56-4408-8063-715D4555325D}" path="ViewAllProductsNav.tcKDTest" />
+			<child name="ViewAllOrdersNav" key="{D6D083B8-B264-483E-AEDD-AF990EC93A4B}" path="ViewAllOrdersNav.tcKDTest" />
+			<child name="ModifyOrderNav" key="{E9D40901-A761-4AAF-AFE5-0D8DE0D53886}" path="ModifyOrderNav.tcKDTest" />
 		</folder>
 		<folder name="Products">
 			<child name="SelectFamilyAlbum" key="{99B97CC5-FD46-46F4-9FEB-5BD0EAC476E8}" path="SelectFamilyAlbum.tcKDTest" />
@@ -25,14 +26,21 @@
 		<folder name="ShippingInfo">
 			<child name="AddressInfo" key="{D3657068-8B20-4271-9B39-ADFB56261AE6}" path="AddressInfo.tcKDTest" />
 			<child name="BillingInfo" key="{AF017838-FF23-4B09-8B4B-2E1A3A89AFCB}" path="BillingInfo.tcKDTest" />
+			<child name="ModifyAddressInfo" key="{FCF8325D-5FFC-4C7A-88D8-3C3342E54B6C}" path="ModifyAddressInfo.tcKDTest" />
 		</folder>
 		<folder name="Buttons">
 			<child name="CalculateTotalPrice" key="{47D80181-0FA4-4FC7-9709-24DF91A05461}" path="CalculateTotalPrice.tcKDTest" />
 			<child name="ProcessOrder" key="{85AA2A5F-9567-4084-A552-9DC8B013BD92}" path="ProcessOrder.tcKDTest" />
 			<child name="ResetOrder" key="{2C9D46DF-4397-4A64-AD2E-2EC18C801F27}" path="ResetOrder.tcKDTest" />
+			<child name="UpdateOrder" key="{01DB529D-C64E-4B5B-B578-68F27FC05BB5}" path="UpdateOrder.tcKDTest" />
+			<child name="DeleteSelected" key="{F3D250E6-4484-4F15-A406-10C1C864B9BF}" path="DeleteSelected.tcKDTest" />
 		</folder>
 		<folder name="Validations">
 			<child name="VerifyNewOrderText" key="{2B34BFC6-873E-43A4-879F-B3F0AE4D53E3}" path="VerifyNewOrderText.tcKDTest" />
+		</folder>
+		<folder name="Tests">
+			<child name="CreateAnOrder" key="{F800994B-1D8E-4517-8644-21AC9EFBD620}" path="CreateAnOrder.tcKDTest" />
+			<child name="DeleteOrder" key="{36071D43-E880-4B99-BA87-5FCB355049D8}" path="DeleteOrder.tcKDTest" />
 		</folder>
 		<child name="Test1" key="{6B83062A-AFC3-4DBC-B977-922B92486825}" path="Test1.tcKDTest" />
 	</children>

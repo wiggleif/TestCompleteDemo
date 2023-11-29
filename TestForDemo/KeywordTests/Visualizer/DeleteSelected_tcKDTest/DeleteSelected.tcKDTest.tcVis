@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F3D250E6-4484-4F15-A406-10C1C864B9BF}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45259.5532523148" objectName="Aliases.browser.pageWebOrders.formAspnetform.checkboxCtl00MaincontentOrdergri" objectLeft="462" objectTop="435" objectRight="475" objectBottom="448" clickPointX="466" clickPointY="441" imageFileName="tcvi76277890271880.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45259.553287037" objectName="Aliases.browser.pageWebOrders.formAspnetform.checkboxCtl00MaincontentOrdergri2" objectLeft="462" objectTop="471" objectRight="475" objectBottom="484" clickPointX="467" clickPointY="478" imageFileName="tcvi76280375271883.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45259.5533101852" objectName="Aliases.browser.pageWebOrders.formAspnetform.submitbuttonDeleteSelected" objectLeft="452" objectTop="614" objectRight="585" objectBottom="646" clickPointX="521" clickPointY="636" imageFileName="tcvi76282281271886.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
