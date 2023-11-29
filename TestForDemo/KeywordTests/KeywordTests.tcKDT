@@ -6,6 +6,7 @@
 			<child name="OK_toWeakPasswordPopup" key="{BC8426AF-6D19-4928-A389-C90549FA73FF}" path="OK_toWeakPasswordPopup.tcKDTest" />
 			<child name="Login" key="{15588AD1-029E-4960-A539-4939AF03D135}" path="Login.tcKDTest" />
 			<child name="Logout" key="{9B54E908-DEAF-473D-85B3-DFCD6EFF5BFE}" path="Logout.tcKDTest" />
+			<child name="CloseBrowser" key="{6DEBEC1A-6A39-43BF-BCCA-6E919B1C030A}" path="CloseBrowser.tcKDTest" />
 		</folder>
 		<folder name="Pages">
 			<child name="OrderItemsNav" key="{EBA988FC-650C-453D-85FA-A1EA2798A594}" path="OrderItemsNav.tcKDTest" />
