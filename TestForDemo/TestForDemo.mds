@@ -34,13 +34,12 @@
 					<testItem name="CreateAnOrder" key="{F37389A1-144D-49AF-A8B4-47907E00EFC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F800994B-1D8E-4517-8644-21AC9EFBD620}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="DeleteOrder" key="{E9205EAD-83DB-46FB-AB48-3FAFCE45038F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{36071D43-E880-4B99-BA87-5FCB355049D8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-						</children>
+						<children />
+					</testItem>
+					<testItem name="DeleteOrder" key="{E9205EAD-83DB-46FB-AB48-3FAFCE45038F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{36071D43-E880-4B99-BA87-5FCB355049D8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
 					</testItem>
 				</children>
 			</testItem>
